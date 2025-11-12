@@ -61,6 +61,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'hero-gradient': {
+					from: 'hsl(var(--hero-gradient-from))',
+					to: 'hsl(var(--hero-gradient-to))'
+				},
+				'vintage-badge': {
+					DEFAULT: 'hsl(var(--vintage-badge))',
+					foreground: 'hsl(var(--vintage-badge-foreground))'
 				}
 			},
 			borderRadius: {
